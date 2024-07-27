@@ -11,7 +11,7 @@ export default function Home() {
     <div>
       <div className="text-white grid md:grid-cols-3 gap-5 max-w-screen-xl m-auto my-10 text-xs md:text-base">
         <div className="grid grid-cols-3 bg-[#111111] mx-5 text-center p-5 justify-items-center md:grid-cols-1 place-items-center">
-          <Image src={valves} className="bg-slate-100 md:w-[300px] md:h-[250px] w-[250px]"/>
+          <Image src={valves} className="bg-slate-100 md:w-[300px] md:h-[250px] w-[250px]" alt="Image"/>
           <h2 className="text-xl my-2">Valves</h2>
           <div>
             <p>Mechanical Devices that control the flow and pressure of liquids, gasses and slurries within a system.</p>
@@ -19,7 +19,7 @@ export default function Home() {
           </div>
         </div>
         <div className="grid grid-cols-3 bg-[#111111] mx-5 text-center p-5 justify-items-center md:grid-cols-1 place-items-center">
-          <Image src={electrical} className="bg-slate-100 md:w-[300px] md:h-[250px] w-[250px]"/>
+          <Image src={electrical} className="bg-slate-100 md:w-[300px] md:h-[250px] w-[250px]" alt="Image"/>
           <h2 className="text-xl my-2">Electrical Supplies</h2>
           <div >
             <p>Condustors used to transmit electric energy and their necessary supporting or containing  structures.</p>
@@ -27,7 +27,7 @@ export default function Home() {
           </div>
         </div>
         <div className="grid grid-cols-3 bg-[#111111] mx-5 text-center p-5 justify-items-center md:grid-cols-1 place-items-center">
-          <Image src={industrial} className="bg-slate-100 md:w-[300px] md:h-[250px] w-[250px]" />
+          <Image src={industrial} className="bg-slate-100 md:w-[300px] md:h-[250px] w-[250px]" alt="Image"/>
           <h2 className="text-xl my-2">Industrial Supplies</h2>
           <div>
             <p>Components, spare parts, accessories and equipments.</p>
