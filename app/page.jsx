@@ -1,11 +1,14 @@
+'use client'
 import Image from "next/image";
 import valves from '@/Assets/valve.png'
 import electrical from '@/Assets/electrical-supplies.png'
 import industrial from '@/Assets/industrial-supplies.png'
 import { FaFacebook, FaInstagram, FaTiktok } from "react-icons/fa";
+import { useState, useEffect } from "react";
 
 
 export default function Home() {
+
 
   return (
     <div>

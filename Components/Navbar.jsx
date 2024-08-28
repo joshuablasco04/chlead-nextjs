@@ -86,10 +86,10 @@ const Navbar = () => {
               <div onClick={handleProfile} className='hover:text-[#d71313] hover:scale-110 w-32 flex'>My Profile <span><FaCaretDown /></span></div>
               {profile ? 
               <ul className=''>
-                <Link href='/Profile' onClick={handleBurger}>
+                <Link href='/Profile' onClick={handleProfile}>
                   <li className='hover:text-[#d71313] hover:scale-110 w-44 absolute '>Profile information</li>
                 </Link>
-                <Link href='/Purchased' onClick={handleBurger}>
+                <Link href='/Purchased' onClick={handleProfile}>
                   <li className='hover:text-[#d71313] hover:scale-110 w-44 absolute mt-7'>Purchase history</li>
                 </Link>
               </ul> 

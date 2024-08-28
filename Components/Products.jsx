@@ -13,7 +13,7 @@ const Products = ({data}) => {
                     {data.map(item=> (
                         item.category == 'Valve' ? 
                             <div key={item._id} className='text-white bg-gray-500 flex flex-col justify-between items-center p-5 gap-2 shadow-md shadow-black'>
-                                <Image src={`/${item.productImage}`} alt='Product Image' width={100} height={100} className='text-white h-[120px]'/>
+                                <Image src={`/${item.productImage}`} alt='Product Image' width={100} height={100} className='text-white h-[120px] w-auto'/>
                                     <div><span className='mr-2'>₱</span>{item.productAmount}</div>
                                     
                                     <button className='bg-blue-600 w-24 rounded p-1 hover:bg-blue-700'>Add to cart</button>
@@ -32,7 +32,7 @@ const Products = ({data}) => {
                     {data.map(item=> (
                         item.category == 'Pumps' ? 
                             <div key={item._id} className='text-white bg-gray-500 flex flex-col justify-between items-center p-5 gap-2 shadow-md shadow-black'>
-                                <Image src={`/${item.productImage}`} alt='Product Image' width={100} height={100} className='text-white h-[120px]'/>
+                                <Image src={`/${item.productImage}`} alt='Product Image' width={100} height={100} className='text-white h-[120px] w-auto'/>
                                     <div><span className='mr-2'>₱</span>{item.productAmount}</div>
                                     
                                     <button className='bg-blue-600 w-24 rounded p-1 hover:bg-blue-700'>Add to cart</button>
@@ -51,7 +51,7 @@ const Products = ({data}) => {
                     {data.map(item=> (
                         item.category == 'Automation' ? 
                             <div key={item._id} className='text-white bg-gray-500 flex flex-col justify-between items-center p-5 gap-2 shadow-md shadow-black'>
-                                <Image src={`/${item.productImage}`} alt='Product Image' width={100} height={100} className='text-white h-[120px]'/>
+                                <Image src={`/${item.productImage}`} alt='Product Image' width={100} height={100} className='text-white h-[120px] w-auto'/>
                                     <div><span className='mr-2'>₱</span>{item.productAmount}</div>
                                     
                                     <button className='bg-blue-600 w-24 rounded p-1 hover:bg-blue-700'>Add to cart</button>
@@ -70,7 +70,7 @@ const Products = ({data}) => {
                     {data.map(item=> (
                         item.category == 'Industrial' ? 
                             <div key={item._id} className='text-white bg-gray-500 flex flex-col justify-between items-center p-5 gap-2 shadow-md shadow-black'>
-                                <Image src={`/${item.productImage}`} alt='Product Image' width={100} height={100} className='text-white h-[120px]'/>
+                                <Image src={`/${item.productImage}`} alt='Product Image' width={100} height={100} className='text-white h-[120px] w-auto'/>
                                     <div><span className='mr-2'>₱</span>{item.productAmount}</div>
                                     
                                     <button className='bg-blue-600 w-24 rounded p-1 hover:bg-blue-700'>Add to cart</button>
@@ -89,7 +89,7 @@ const Products = ({data}) => {
                     {data.map(item=> (
                         item.category == 'Electrical' ? 
                             <div key={item._id} className='text-white bg-gray-500 flex flex-col justify-between items-center p-5 gap-2 shadow-md shadow-black'>
-                                <Image src={`/${item.productImage}`} alt='Product Image' width={100} height={100} className='text-white h-[120px]'/>
+                                <Image src={`/${item.productImage}`} alt='Product Image' width={100} height={100} className='text-white h-[120px] w-auto'/>
                                     <div><span className='mr-2'>₱</span>{item.productAmount}</div>
                                     
                                     <button className='bg-blue-600 w-24 rounded p-1 hover:bg-blue-700'>Add to cart</button>
